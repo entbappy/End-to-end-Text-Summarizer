@@ -18,4 +18,15 @@ ensure==1.0.2
 fastapi==0.78.0
 uvicorn==0.18.3
 Jinja2==3.1.2
+boto3
+mypy-boto3-s3
 -e .
+
+
+
+## Additional cmd
+
+
+# pip install --upgrade accelerate
+# pip uninstall -y transformers accelerate
+# pip install transformers accelerate

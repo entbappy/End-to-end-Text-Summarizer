@@ -5,6 +5,7 @@ from textSummarizer.logging import logger
 from textSummarizer.utils.common import get_size
 from textSummarizer.entity import DataIngestionConfig
 from pathlib import Path
+from textSummarizer.constants import *
 
 
 
@@ -24,6 +25,7 @@ class DataIngestion:
         else:
             logger.info(f"File already exists of size: {get_size(Path(self.config.local_data_file))}")  
 
+    
         
     
     def extract_zip_file(self):
